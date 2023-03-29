@@ -86,6 +86,3 @@ select
     (case when score.english >= 85 then '优秀' when score.english >= 60 then '及格' else '不及格' end ) '英语',
     (case when score.chinese >= 85 then '优秀' when score.chinese >= 60 then '及格' else '不及格' end ) '语文'
 from score;
-
-
-
